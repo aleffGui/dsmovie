@@ -1,4 +1,4 @@
-import "./styles.css";
+import './styles.css';
 
 function Form() {
   const movie = {
@@ -11,7 +11,7 @@ function Form() {
   };
   return (
     <div className="dsmovie-form-container">
-      <img className="dsmovie-movie-card-image" src= {movie.image} alt= {movie.title} />
+      <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
       <div className="dsmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <form className="dsmovie-form">
